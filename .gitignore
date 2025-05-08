@@ -1,4 +1,7 @@
 ### Project-specific ###
+# GitHub workflow files
+.github/
+
 # Logs
 logs/
 
