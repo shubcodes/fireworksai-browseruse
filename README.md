@@ -6,6 +6,9 @@ A powerful AI agent for browser-based interactions powered by Fireworks AI model
 
 Fireworks Manus is an AI agent that can navigate the web, extract content, analyze websites, and provide intelligent feedback based on what it sees. Using Fireworks AI's state-of-the-art models, it can understand web content both visually and textually, making it ideal for tasks like SEO analysis, content research, and web automation.
 
+![Agent Chat Interface](agent-chat.png)
+![Agent Tools](agent-tools.png)
+
 ## Features
 
 - **Web Navigation**: Visit any website and interact with its content
