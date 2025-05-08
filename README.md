@@ -61,7 +61,7 @@ cp config/config.example.toml config/config.toml
 ```toml
 # Global LLM configuration
 [llm]
-model = "fireworks/mixtral-8x7b"  # Or your preferred Fireworks model
+model = "accounts/fireworks/models/deepseek-v3"  # Or your preferred Fireworks model
 base_url = "https://api.fireworks.ai/inference/v1"
 api_key = "your-fireworks-api-key"  # Replace with your actual API key
 max_tokens = 4096
@@ -69,7 +69,7 @@ temperature = 0.0
 
 # Vision model configuration
 [llm.vision]
-model = "fireworks/vision-preview"  # Fireworks vision model
+model = "accounts/fireworks/models/firellava-13b"  # Fireworks vision model
 base_url = "https://api.fireworks.ai/inference/v1"
 api_key = "your-fireworks-api-key"  # Replace with your actual API key
 ```
