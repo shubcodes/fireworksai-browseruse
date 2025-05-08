@@ -185,12 +185,8 @@ cython_debug/
 .pypirc
 
 ### Visual Studio Code ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
+# Ignore all .vscode files and directories
+.vscode/
 
 # Local History for Visual Studio Code
 .history/
