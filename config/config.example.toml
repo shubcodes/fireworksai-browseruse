@@ -1,0 +1,22 @@
+# Global LLM configuration
+[llm]
+model = "accounts/fireworks/models/deepseek-v3"
+base_url = "https://api.fireworks.ai/inference/v1"
+api_key = ""
+api_type = "fireworks"
+max_tokens = 4096
+temperature = 0.0
+
+# Optional configuration for vision model
+[llm.vision]
+model = "accounts/fireworks/models/firellava-13b"
+base_url = "https://api.fireworks.ai/inference/v1"
+api_key = ""
+api_type = "fireworks"
+
+# Browser configuration
+[browser]
+headless = true
+disable_security = true
+extra_chromium_args = ["--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu", "--disable-web-security"]
+max_content_length = 10000
